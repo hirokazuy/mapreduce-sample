@@ -1,0 +1,11 @@
+name := "import"
+version := "1.0"
+scalaVersion := "2.11.6"
+
+libraryDependencies += "org.scala-lang" % "scala-compiler" % "2.11.6" % "provided"
+libraryDependencies += "org.scala-lang" % "scala-library" % "2.11.6"
+libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-jobclient" % "2.6.5" % "provided"
+libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-core" % "2.6.5" % "provided"
+libraryDependencies += "org.apache.hadoop" % "hadoop-common" % "2.6.5" % "provided"
+libraryDependencies += "org.apache.hadoop" % "hadoop-hdfs" % "2.6.5" % "provided"
+libraryDependencies += "org.apache.hbase" % "hbase-client" % "1.2.6" % "provided"
